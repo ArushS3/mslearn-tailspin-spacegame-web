@@ -26,7 +26,7 @@ steps:
   inputs:
     verbose: false
 
-- task: gulp@1
+- script: gulp@1
   displayName: 'Run gulp tasks'
   inputs:
     gulpFile: 'gulpfile.js' 
